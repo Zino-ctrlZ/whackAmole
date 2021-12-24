@@ -20,7 +20,7 @@ body {
 .title {
   padding: 0.5px 10px;
   border: 2px solid #000;
-  border-radius: 20px;
+  /*border-radius: 20px;*/
   background: rgb(34, 193, 195);
   background: linear-gradient(
     0deg,
@@ -70,10 +70,12 @@ li {
 }
 
 .square {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+  box-shadow: 0px 0px 3px 3px #382d0c;
   border-radius: 50%;
-  border: 2px solid blue;
+  border: 6px solid #7cfc00;
 }
 
 .mole {
