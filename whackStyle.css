@@ -1,15 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+}
+
+.gameBoard {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 1px 10px;
+  max-width: 400px;
+  align-items: center;
+  padding: 10px;
+  background: url("background.svg");
+}
+
+.title {
+  padding: 0.5px 10px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(45, 182, 253, 1) 100%
+  );
+  color: white;
+  font-weight: 600px;
+  text-align: center;
+}
+
+.state {
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+}
+
+li {
+  font-size: 2.5em;
+}
+
+#time-left {
+  color: #ff2f0a;
+}
+
+#score {
+  color: #fff;
+}
+
 .grid {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-content: center;
-  width: 618px;
-  height: 618px;
-  background-color: yellow;
+  width: 300x;
+  height: 300px;
+  margin: auto;
+  background-color: #78530a;
+  cursor: url("icons8-mallet-2.png"), auto;
 }
+
 .square {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
   border: 2px solid blue;
 }
 
